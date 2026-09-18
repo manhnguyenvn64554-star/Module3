@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Module3.Bai6.QuanLyHangHoa">
+    <Position X="6.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQQIAAAAAADAAAAAAAgAAAIAAAAUAiIDAAgAAEAEA=</HashCode>
+      <FileName>Bai6\QuanLyHangHoa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module3.Bai6.DienMay">
+    <Position X="9" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAIAAAAgAAAAAAAAEAAABAAAAAAAAA=</HashCode>
+      <FileName>Bai6\DienMay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module3.Bai6.SanhSu">
+    <Position X="3.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAACAAAAAIAAAAAAAAAAAEAAABAAAAAAAAA=</HashCode>
+      <FileName>Bai6\SanhSu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module3.Bai6.ThucPham">
+    <Position X="6.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAQAAAAABAAAAAAAAEAAABAEAIAAAAA=</HashCode>
+      <FileName>Bai6\ThucPham.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

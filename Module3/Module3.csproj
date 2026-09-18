@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C4B620B6-5A29-4BAE-9BBD-CEA2F7BB3C6B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Module3</RootNamespace>
+    <AssemblyName>Module3</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bai1\CongTyDuLich.cs" />
+    <Compile Include="Bai1\Program1.cs" />
+    <Compile Include="Bai2&amp;4\Program2.cs" />
+    <Compile Include="Bai2&amp;4\QuanLySach.cs" />
+    <Compile Include="Bai2&amp;4\SGK.cs" />
+    <Compile Include="Bai2&amp;4\SKT.cs" />
+    <Compile Include="Bai3\GiaoDichTienTe.cs" />
+    <Compile Include="Bai3\GiaoDichVang.cs" />
+    <Compile Include="Bai3\Program3.cs" />
+    <Compile Include="Bai3\QuanLiGiaoDich.cs" />
+    <Compile Include="Bai5\BasePlusComission.cs" />
+    <Compile Include="Bai5\ComissionEmp.cs" />
+    <Compile Include="Bai5\EmployeeManagement.cs" />
+    <Compile Include="Bai5\HourlyEmp.cs" />
+    <Compile Include="Bai5\Program5.cs" />
+    <Compile Include="Bai5\SalariedEmp.cs" />
+    <Compile Include="Bai6\DienMay.cs" />
+    <Compile Include="Bai6\Program6.cs" />
+    <Compile Include="Bai6\QuanLyHangHoa.cs" />
+    <Compile Include="Bai6\SanhSu.cs" />
+    <Compile Include="Bai6\ThucPham.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Bai1\XeNgoaiThanh.cs" />
+    <Compile Include="Bai1\XeNoiThanh.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Bai6\ClassDiagram6.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
