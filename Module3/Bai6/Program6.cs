@@ -140,7 +140,7 @@ namespace Module3.Bai6
 
             if (danhSach.Count == 0)
             {
-                Console.WriteLine("Danh sách đang trống.");
+                Console.WriteLine("Danh sách đang trống."); 
                 return;
             }
 
